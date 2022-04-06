@@ -1,9 +1,4 @@
 import React ,{useState, useEffect} from 'react'
-import { BsImage } from "react-icons/bs";
-import { AiOutlineLike } from "react-icons/ai";
-import { MdOutlineCollections } from "react-icons/md";
-import { GiEarthAmerica } from "react-icons/gi";
-import { FiMapPin } from "react-icons/fi";
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import axios from 'axios';
