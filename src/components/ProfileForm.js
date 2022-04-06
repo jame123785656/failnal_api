@@ -54,15 +54,7 @@ const ProfileForm =()=> {
             </div>
       </div>  
 
-{/* 
-            <div class="box-menu">
-                <div class="menu-item">
-                    <p class="protosText"><BsImage/> Photos {total_photos}</p>
-                    <p class="likesText"><AiOutlineLike/> Likes {likes}</p>
-                    <p class="colletText"><MdOutlineCollections/> Collettions {total_collections}</p>     
-                </div>
-            </div>
-       */}
+
           
     </div>
   )
