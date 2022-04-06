@@ -62,15 +62,17 @@ body{
 }
 
 .books{
-    width: 90%;
+    width: 100%;
     margin-top: 2%;
     border: 1px solid silver;
     margin-bottom: 5%;
     display: flex;
 }
 .img-book{
-    width: 30%;
+    width: 100%;
+    color: black;
 }
+
 .img-book h4{
     color: silver;
 }
@@ -78,8 +80,9 @@ body{
     width: 150px;
 }
 .text-book{
-    width: 60%;
+    width: 50%;
     margin-left: 10px;
+    margin-top: 7%;
 }
 
 
@@ -103,13 +106,12 @@ body{
 }
 
 .section-profile img{
-    width: 200px;
-    border-radius: 100px;
-    margin-left: 20%;
+    width: 300px;
+    margin-left: 1%;
 }
 
 .section-text{
-    width: 35%;
+    width: 60%;
     margin-left: 10%;
 }
 

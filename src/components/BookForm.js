@@ -44,10 +44,10 @@ function BookForm() {
 
                 }}>
               <div class="img-book">
-              <h3>{book.title}</h3>
+              <h3>ชื่อหนังสือ{book.title}</h3>
               <img src={book.thumbnailUrl}  />
-              <h4>รหัสหนังสือ{book.isbn}</h4>
-              <h4>จำนวนหน้า {book.pageCount} หน้า</h4> 
+              <h4>รหัส{book.isbn}</h4>
+              <h4>จำนวน{book.pageCount}หน้า</h4> 
               </div>
               </Link>
               <div class="text-book">

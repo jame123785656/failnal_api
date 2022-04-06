@@ -1,10 +1,9 @@
 import React ,{useState, useEffect} from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+
 
 const ProfileForm =()=> {
-  const [book, setImage] = useState([]);
  
   const location = useLocation()
   
@@ -17,28 +16,17 @@ const ProfileForm =()=> {
 
 
 
-  useEffect(initialValue,[]);
-    function initialValue(){
-      SearchUser()
-    }
-    function SearchUser(){
-     
-      const url = "https://api.unsplash.com/users/"+authors
-        
-      axios.get(url)
-      .then ((response) =>{
-        console.log(response);
-        setImage(response.data);
-      })
-    }
+ 
     
   return (
     <div>
-     
+      <Link to="/">
       <navbar class="navbar">
-     
+        <div class="logo">
+            <h3>ย้อนกลับ</h3>
+        </div>
       </navbar>
-     
+      </Link>
 
       <div class="box-area">
             <div class="section-profile">
@@ -46,9 +34,11 @@ const ProfileForm =()=> {
             </div>
             <div class="section-text">
                 <h2>{title} </h2>
-                <p>{isbn}</p>
-                <p>จำนวนหน้า {pageCount}</p>
+                <p>รหัส {isbn}</p>
+                <p>ผู้แต่ง {authors}</p>
+                <p>จำนวน {pageCount} หน้า</p>
                 <p>{shortDescription}</p>
+                
             </div>
       </div>  
 
