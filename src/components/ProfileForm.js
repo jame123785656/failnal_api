@@ -34,13 +34,11 @@ const ProfileForm =()=> {
     
   return (
     <div>
-      <Link to="/">
+     
       <navbar class="navbar">
-        <div class="logo">
-            
-        </div>
+     
       </navbar>
-      </Link>
+     
 
       <div class="box-area">
             <div class="section-profile">
