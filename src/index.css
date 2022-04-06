@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  height: 60px;
+  border-bottom: 1px solid rgb(197, 195, 195);
+  padding-top: 12px;
+}
+
+.logo{
+  width: 15%;
+  margin-left: 25%;
+}
+
+.logo img{
+  width: 110px;
+  margin-top: 4.5%;
+  cursor: pointer;
+}
+
+.boxSearch{
+    width: 20%;
+    margin-left: 20%;
+    display: flex;
+}
+
+.boxSearch input{
+    width: 90%;
+    height: 30px;
+    margin-top: 2.5%;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 25px;
+    padding-left: 4%;
+    font-size: 16px;
+}
+
+.boxSearch button{
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 30%;
+    height: 35px;
+    border: 1px solid rgb(155, 154, 154);
+    background-color: rgb(209, 208, 208);
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.boxSearch button:hover{
+    background-color: rgb(168, 167, 167);
+}
+
+.boxSearch button:focus{
+    cursor: pointer;
+}
+
+.books{
+    width: 90%;
+    margin-top: 2%;
+    border: 1px solid silver;
+    margin-bottom: 5%;
+    display: flex;
+}
+.img-book{
+    width: 30%;
+}
+.img-book h4{
+    color: silver;
+}
+.img-book img{
+    width: 150px;
+}
+.text-book{
+    width: 60%;
+    margin-left: 10px;
+}
+
+
+
+/* profile */
+
+.box-area{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+}
+
+.section-profile{
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.section-profile img{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 20%;
+}
+
+.section-text{
+    width: 35%;
+    margin-left: 10%;
+}
+
+.box-menu{
+    width: 60%;
+    height: 30px;
+    margin-left: 20%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-top: 0.5%;
+}
+
+.menu-item{
+    width: 80%;
+    display: flex;
+}
+
+.menu-item p{
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+}
+
+.menu-item p:hover{
+    color: rgb(85, 85, 85);
+}
+
+.protosText{
+    width: 15%;
+    margin-left: 1%;
+    margin-top: 0.8%;
+}
+
+.likesText{
+    width: 15%;
+    margin-top: 0.8%;
+    
+}
+
+.colletText{
+    width: 20%;
+    margin-top: 0.8%;
+}
+
+.show-img{
+    width: 60%;
+    margin-top: 0.5%;
+    margin-left: 20%;
+    border: 1px solid silver;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.card{
+    max-width: 60rem;
+    margin: 1rem auto;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+}
+.card img{
+    width: 250px;
+    padding-left: 0.5%;
+}
