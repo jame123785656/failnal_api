@@ -64,15 +64,3 @@ function BookForm() {
 export default BookForm
 
 
-{/* <Link to="/profile" state={{ */}
-// username:photo.user.username,
-// bio:photo.user.bio,
-// first_name:photo.user.first_name,
-// last_name:photo.user.last_name,
-// location01:photo.user.location,
-// profile_image:photo.user.profile_image.large,
-// portfolio_url:photo.user.portfolio_url,
-// likes:photo.likes,
-// total_collections:photo.user.total_collections,
-// total_photos:photo.user.total_photos}}>
-// </Link>
